@@ -1,4 +1,4 @@
-package sec.log;
+package utils.security.log;
 
 import org.slf4j.LoggerFactory;
 

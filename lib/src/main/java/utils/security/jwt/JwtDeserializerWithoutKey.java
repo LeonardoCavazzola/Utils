@@ -1,9 +1,9 @@
-package sec.jwt;
+package utils.security.jwt;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.JwtParser;
 import io.jsonwebtoken.Jwts;
-import sec.jwt.specification.JwtDeserializer;
+import utils.security.jwt.specification.JwtDeserializer;
 
 public class JwtDeserializerWithoutKey implements JwtDeserializer {
     private final JwtParser parser = Jwts.parserBuilder().build();

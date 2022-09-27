@@ -1,6 +1,6 @@
-package sec.jwt.specification;
+package utils.security.jwt.specification;
 
-import sec.jwt.ClaimsBody;
+import utils.security.jwt.ClaimsBody;
 
 public interface JwtSerializer {
     String serialize(ClaimsBody claimsBody);
