@@ -7,5 +7,7 @@
  * in the user manual at https://docs.gradle.org/7.5.1/userguide/multi_project_builds.html
  */
 
-rootProject.name = "sec"
+rootProject.name = "utils"
 include("lib")
+include("dotenv")
+include("spring")
