@@ -1,4 +1,4 @@
-package utils.dotenv;
+package tk.leonardocavazzola.utils.dynamicproperties;
 
 import lombok.extern.java.Log;
 
@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 @Log
-public class DotenvScanner {
+public class PropertiesScanner {
     public static void scanProperties(String path) throws IOException {
         try {
             Properties properties = readFile(path);
@@ -17,7 +17,7 @@ public class DotenvScanner {
         } catch (FileNotFoundException ex) {
             log.warning("File not found");
         }
-        log.info(".env properties has been scanned");
+        log.info("Properties has been scanned");
     }
 
     private static Properties readFile(String path) throws IOException {

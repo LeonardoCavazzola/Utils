@@ -1,4 +1,4 @@
-package utils.security.jwt;
+package tk.leonardocavazzola.utils.security.jwt;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.impl.DefaultClaims;

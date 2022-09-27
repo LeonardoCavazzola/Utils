@@ -1,11 +1,11 @@
-package utils.security.jwt;
+package tk.leonardocavazzola.utils.security.jwt;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.JwtBuilder;
 import io.jsonwebtoken.JwtParser;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.security.Keys;
-import utils.security.jwt.specification.JwtUtils;
+import tk.leonardocavazzola.utils.security.jwt.specification.JwtUtils;
 
 import java.security.Key;
 import java.time.Duration;
